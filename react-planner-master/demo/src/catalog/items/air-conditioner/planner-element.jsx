@@ -297,9 +297,9 @@ export default {
 
   info: {
     tag: ["furnishings", "metal"],
-    title: "air conditioner",
+    title: "Joker 800",
     description: "air conditioner",
-    image: require("./air_conditioner.png"),
+    image: require("./Joker800.png"),
   },
   properties: {
     altitude: {
@@ -346,7 +346,7 @@ export default {
           {element.type}
         </text>
         <image
-          href="http://lorempixel.com/300/150/sports/"
+          href="file:///Users/javier/Downloads/react-planner-master/demo/src/catalog/items/air-conditioner/Joker800.png"
           key="1"
           x="0"
           y="0"

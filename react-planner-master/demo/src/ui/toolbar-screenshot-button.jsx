@@ -114,7 +114,7 @@ export default function ToolbarScreenshotButton({mode}, {translator}) {
       MODE_ROTATING_ITEM].includes(mode)) {
 
     return (
-      <ToolbarButton active={false} tooltip={translator.t('Get Screenshot')} onClick={saveSVGScreenshotToFile}>
+      <ToolbarButton active={false} tooltip={translator.t('Get Screenshot 12')} onClick={saveSVGScreenshotToFile}>
         <MdCamera/>
       </ToolbarButton>
     );

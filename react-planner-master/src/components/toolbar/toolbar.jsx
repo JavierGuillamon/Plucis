@@ -107,7 +107,7 @@ export default class Toolbar extends Component {
         </ToolbarButton>
       },
       {
-        index: 4, condition: true, dom: <ToolbarButton
+        index: 4, condition: false, dom: <ToolbarButton
           active={[MODE_3D_VIEW].includes(mode)}
           tooltip={translator.t('3D View')}
           onClick={event => viewer3DActions.selectTool3DView()}>
@@ -115,7 +115,7 @@ export default class Toolbar extends Component {
         </ToolbarButton>
       },
       {
-        index: 5, condition: true, dom: <ToolbarButton
+        index: 5, condition: false, dom: <ToolbarButton
           active={[MODE_IDLE].includes(mode)}
           tooltip={translator.t('2D View')}
           onClick={event => projectActions.setMode( MODE_IDLE )}>
@@ -123,7 +123,7 @@ export default class Toolbar extends Component {
         </ToolbarButton>
       },
       {
-        index: 6, condition: true, dom: <ToolbarButton
+        index: 6, condition: false, dom: <ToolbarButton
           active={[MODE_3D_FIRST_PERSON].includes(mode)}
           tooltip={translator.t('3D First Person')}
           onClick={event => viewer3DActions.selectTool3DFirstPerson()}>
